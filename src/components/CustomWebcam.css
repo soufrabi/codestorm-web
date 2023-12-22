@@ -1,0 +1,61 @@
+/* .container-cam{
+    position: relative;
+   
+}
+.Web-cam{
+    top: 0;
+    left: 0;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+.Webcam-prop
+{
+    height: 500px;
+     width: 500px ;
+}
+.retake-button{
+    width: 150px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.retake-button:hover {
+    background-color: #feffff;
+    color: #060606;
+    border-color: #4481eb;
+    border-width: 3px;
+    border-style: solid;
+  }
+
+  .capture-button{
+    width: 150px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.capture-button:hover {
+    background-color: #feffff;
+    color: #060606;
+    border-color: #4481eb;
+    border-width: 3px;
+    border-style: solid;
+  }
