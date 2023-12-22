@@ -5,6 +5,7 @@ import './App.css'
 
 import Header from './components/header.jsx'
 import Footer from './components/footer.jsx'
+import HomePage from './components/homepage.jsx'
 import CodeEditor from './components/editor'
 import LoginPage from './components/LoginPage.jsx'
 
@@ -19,8 +20,9 @@ function App() {
                 <main>
 
                     <Routes>
-                        <Route path="/" element={<LoginPage />} />
-                        <Route path="/editor" element={<CodeEditor />} />
+                        <Route path="/" element={<HomePage />} />
+                        <Route path="/login" element={<LoginPage />} />
+                        <Route path="/ide" element={<CodeEditor />} />
                     </Routes>
 
                 </main>
