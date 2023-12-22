@@ -16,8 +16,8 @@ const CodeEditor = () => {
 
     return (
         <>
-            {/* <CodeMirror value={value} height="200px" extensions={[javascript({ jsx: true })]} onChange={onChange} /> */}
-            <CodeMirror value={value} height="200px" extensions={[cpp({})]} onChange={onChange} />
+            <CodeMirror value={value} height="200px" extensions={[javascript({ jsx: true })]} onChange={onChange} />
+            {/* <CodeMirror value={value} height="200px" extensions={[cpp({})]} onChange={onChange} /> */}
 
 
         </>
